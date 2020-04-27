@@ -25,6 +25,14 @@ h2 {
   text-align: center;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
@@ -87,6 +95,9 @@ h2 {
   /* background-color: #F9C035; */
   background-color: #D14E44;
 }
+.web:hover {
+  background-color: #F9C035;
+}
 .about-us{
   padding-bottom: 80px;
   padding-left: 5%;
@@ -94,10 +105,13 @@ h2 {
   background-color: #f7f7f7;
   text-align: center;
   color: #18333A;
-  height: 500px;
 }
 .about-us p {
   text-align: center;
+}
+.value-wrapper {
+  height: auto;
+  overflow: hidden;
 }
 .value {
   float: left;
@@ -125,11 +139,14 @@ h2 {
 .our-team {
   background-color: #DBECF0;
   color: #18333A;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
-  height: 400px;
+}
+.team {
+  overflow: hidden;
+  align-content: center;
 }
 .member {
   float: left;
@@ -137,7 +154,15 @@ h2 {
 }
 .member-icon {
   position: relative;
+  padding-top: 20px;
 }
+
+.member-icon:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 .member-icon p {
   position: absolute;
   top: 44%;
@@ -149,6 +174,13 @@ h2 {
   padding-bottom: 50px;
   background-color: #f7f7f7;
   color: #18333A;
+}
+.contact-submit {
+  background-color: #D14E44;
+  color: white;
+}
+.contact-submit:hover {
+  background-color: #F9C035;
 }
 input, textarea {
   width: 400px;
